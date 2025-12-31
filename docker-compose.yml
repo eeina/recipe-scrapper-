@@ -6,3 +6,7 @@ services:
     networks:
       - eeina_network
     restart: always
+
+networks:
+  eeina_network:
+    external: true
