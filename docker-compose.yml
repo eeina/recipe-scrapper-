@@ -1,5 +1,4 @@
 services:
-
   scraper-v2:
     build: .
     ports:
